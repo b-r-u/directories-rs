@@ -4,15 +4,15 @@ environment:
     #APPVEYOR_CACHE_SKIP_RESTORE: true  # Uncomment when caching causes problems
 
   matrix:
-  # 1.16.0
+  # 1.13.0
   - TARGET: i686-pc-windows-msvc
-    CHANNEL: 1.16.0
+    CHANNEL: 1.13.0
   - TARGET: i686-pc-windows-gnu
-    CHANNEL: 1.16.0
+    CHANNEL: 1.13.0
   - TARGET: x86_64-pc-windows-msvc
-    CHANNEL: 1.16.0
+    CHANNEL: 1.13.0
   - TARGET: x86_64-pc-windows-gnu
-    CHANNEL: 1.16.0
+    CHANNEL: 1.13.0
   # Stable channel
   - TARGET: i686-pc-windows-msvc
     CHANNEL: stable
