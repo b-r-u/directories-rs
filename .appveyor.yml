@@ -38,7 +38,7 @@ install:
 - cargo -V
 
 test_script:
-- cargo check --verbose
+- cargo build --verbose
 - set RUST_BACKTRACE=full
 - cargo test --verbose -- --nocapture
 
